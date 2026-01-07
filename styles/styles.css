@@ -32,7 +32,7 @@ header {
     max-height: 892px;
   background-color: #fff8f3;
   background: url("../images/developer.png"), url("../images/header_bg.png"),
-    #fff8f3;
+    rgba(255, 248, 243, 1);;
   background-position:  left, bottom right;
   background-repeat: no-repeat;
   padding: 50px;
@@ -40,7 +40,7 @@ header {
 
 nav {
   width: 71%;
-  max-width: 1300px;
+  max-width: 1140px;
   /* border: 1px solid red; */
   margin: 0 auto;
   display: flex;
@@ -110,3 +110,49 @@ nav ul a {
   font-size: 20px;
   font-weight: bold;
 }
+
+#about {
+  padding-top: 130px;
+}
+
+.about-heading{
+  max-width: 827px;
+  text-align: center;
+}
+.about-heading h2{
+  font-size: 35px;
+  font-style: bold;
+  margin-bottom: 30px;
+}
+.about-heading p{
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(117, 117, 117, 1);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#about .about-container {
+  width: 71%;
+  max-width: 1140px;
+  border-radius: 10px;
+  background: rgba(255, 248, 243, 1);
+  margin: 0 auto;
+  text-align: center;
+  padding: 131px 157px;
+}
+
+#about .about-container .about-info  {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+#about .about-container .about-info .about-card{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about-card p{
+  color: rgba(117, 117, 117, 1);
+}
+

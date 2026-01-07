@@ -115,16 +115,16 @@ nav ul a {
   padding-top: 130px;
 }
 
-.about-heading{
+.section-heading{
   max-width: 827px;
   text-align: center;
 }
-.about-heading h2{
+.section-heading h2{
   font-size: 35px;
   font-style: bold;
   margin-bottom: 30px;
 }
-.about-heading p{
+.section-heading p{
   font-size: 18px;
   line-height: 30px;
   color: rgba(117, 117, 117, 1);

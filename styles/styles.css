@@ -26,6 +26,18 @@
   border-radius: 5px;
   padding: 18px 35px;
 }
+.text-center {
+  text-align: center;
+}
+
+.orange-color {
+  color: #fd6e0a;
+}
+.white-color {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
 
 /* main styles */
 header {
@@ -61,14 +73,6 @@ nav ul a {
 .logo h2 {
   font-size: 30px;
   font-weight: 900;
-}
-.orange-color {
-  color: #fd6e0a;
-}
-.white-color {
-  font-size: 20px;
-  color: white;
-  font-weight: bold;
 }
 
 #banner {
@@ -243,4 +247,7 @@ nav ul a {
 .resume-container hr {
   color: #D1D1D1;
   margin-bottom: 30.5px;
+}
+#resume .text-center{
+  margin-top: 20px;
 }

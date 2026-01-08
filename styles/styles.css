@@ -13,7 +13,8 @@
   background-color: rgb(189, 88, 22);
 }
 .btn {
-  width: 200px;
+  width: 250px;
+  height: 64px;
   background-color: #fd6e0a;
   border-radius: 5px;
   border: none;
@@ -24,7 +25,7 @@
   
 }
 .btn-white {
-  width: 160px;
+  width: 180px;
   box-sizing: border-box;
 border: 1px solid rgba(253, 110, 10, 1);
 border-radius: 5px;
@@ -88,6 +89,7 @@ nav ul a {
   align-items: center;
 }
 #banner .btn-text {
+  font-size: 20px;
   display: flex;
   gap: 30px;
 }
@@ -313,6 +315,7 @@ footer #footer-container .form input[type="email"]{
   border: none;
   margin-bottom: 24px;
   color: #757575;
+  border-radius: 5px;
 }
 footer #footer-container .form textarea{
   width: 461px;
@@ -321,5 +324,6 @@ footer #footer-container .form textarea{
   border: none;
   margin-bottom: 24px;
   color: #757575;
+  border-radius: 5px;
 }
 

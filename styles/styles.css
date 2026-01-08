@@ -48,7 +48,7 @@ border-radius: 5px;
 
 /* main styles */
 header {
-  max-height: 892px;
+  max-height: 897px;
   background-color: #fff8f3;
   background: url("../images/developer.png"), url("../images/header_bg.png"),
     rgba(255, 248, 243, 1);

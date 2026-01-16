@@ -333,7 +333,7 @@ footer #footer-container .form textarea{
     background-position: bottom right;
     background-repeat: no-repeat;
 }
-  nav, #banner, .btn-text, #about .about-container .about-info{
+  nav, #banner, .btn-text, #about .about-container .about-info, #skills .skills-container .skills-list{
     flex-direction: column;
   }
   nav ul{
@@ -363,6 +363,12 @@ footer #footer-container .form textarea{
   }
   #about .about-container{
     padding: 25px;
+  }
+  #skills .skills-container .skills-list{
+    align-items: center;
+  }
+  #skills .skills-container .skills-list .skills-card{
+    text-align: center;
   }
 
 }

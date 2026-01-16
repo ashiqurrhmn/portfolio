@@ -333,7 +333,7 @@ footer #footer-container .form textarea{
     background-position: bottom right;
     background-repeat: no-repeat;
 }
-  nav, #banner, .btn-text, #about .about-container .about-info, #skills .skills-container .skills-list{
+  nav, #banner, .btn-text, #about .about-container .about-info, #skills .skills-container .skills-list, #resume .resume-container, footer #footer-container{
     flex-direction: column;
   }
   nav ul{
@@ -359,15 +359,27 @@ footer #footer-container .form textarea{
     align-items: center;
   }
   #about, #skills, #resume, #footer{
-    padding-top: 30px;
+    padding-top: 50px;
   }
   #about .about-container{
     padding: 25px;
   }
-  #skills .skills-container .skills-list{
+  #skills .skills-container .skills-list, footer #footer-container{
     align-items: center;
   }
   #skills .skills-container .skills-list .skills-card{
+    text-align: center;
+  }
+  #resume .resume-container{
+    margin-top: 70px;
+  }
+  footer{
+    padding: 50px;
+  }
+  .footer-left{
+    text-align: center;
+  }
+  .form{
     text-align: center;
   }
 

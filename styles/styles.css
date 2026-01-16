@@ -326,18 +326,19 @@ footer #footer-container .form textarea{
   border-radius: 5px;
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 992px){
   header {
     background-color: #fff8f3;
     background: url(../images/header_bg.png), rgba(255, 248, 243, 1);
     background-position: bottom right;
     background-repeat: no-repeat;
 }
-  nav, #banner, .btn-text{
+  nav, #banner, .btn-text, #about .about-container .about-info{
     flex-direction: column;
   }
   nav ul{
     margin-top: 20px;
+    margin-bottom: 40px;
     flex-direction: column;
     gap: 20px;
   }
@@ -356,6 +357,12 @@ footer #footer-container .form textarea{
   }
   #banner .btn-text{
     align-items: center;
+  }
+  #about, #skills, #resume, #footer{
+    padding-top: 30px;
+  }
+  #about .about-container{
+    padding: 25px;
   }
 
 }

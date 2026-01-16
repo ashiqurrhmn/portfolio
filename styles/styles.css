@@ -327,3 +327,6 @@ footer #footer-container .form textarea{
   border-radius: 5px;
 }
 
+@medio screen and (max-width: 992px){
+  
+}
